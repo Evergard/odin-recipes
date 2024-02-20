@@ -71,8 +71,21 @@ textarea:not([rows]) {
   scroll-margin-block: 5ex;
 }
 
-.Main {
-    padding: 2em;
+/* Override height */
+body {
+    min-height: 50vh;
+    height: 50vh;
+}
+
+.container {
+    height: 60vh;
+    width: 50vw;
+    margin: 20vh auto;
+    justify-content: center;
+}
+
+.main {
+    padding-top: 7em;
     text-align: center;
 }
 
@@ -80,23 +93,23 @@ h1 {
     display: inline-flex;
 }
 
-h1 div {
-    margin-bottom: 1.5em;
+h1 span {
+    margin-bottom: 0.5em;
     padding-left: 1em;
     padding-right: 1em;
     padding-bottom: 0.5em;
     border-bottom: 0.1em solid rgb(150, 150, 150);
 }
 
-.MainList {
+.mainlist {
     display: flex;
-    margin-left: 20%;
-    margin-right: 20%;
-    align-items: center;
+    list-style: none;
+    justify-content: center;
 }
 
-.MainList a {
-    flex-basis: 100%;
+.mainlist li {
+    padding-left: 1em;
+    padding-right: 1em;
 }
 
 a:link, a:visited {
