@@ -76,13 +76,27 @@ textarea:not([rows]) {
     text-align: center;
 }
 
+h1 {
+    display: inline-flex;
+}
+
+h1 div {
+    margin-bottom: 1.5em;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-bottom: 0.5em;
+    border-bottom: 0.1em solid rgb(150, 150, 150);
+}
+
 .MainList {
-    justify-content: center;
     display: flex;
+    margin-left: 20%;
+    margin-right: 20%;
+    align-items: center;
 }
 
 .MainList a {
-    padding: 10px;
+    flex-basis: 100%;
 }
 
 a:link, a:visited {
@@ -91,5 +105,5 @@ a:link, a:visited {
 }
 
 a:hover {
-    color: blue;
+    color: rgb(120, 120, 120);
 }
