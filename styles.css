@@ -71,22 +71,18 @@ textarea:not([rows]) {
   scroll-margin-block: 5ex;
 }
 
-/* Override height */
 body {
-    min-height: 50vh;
-    height: 50vh;
+    display: flex;
+    margin: 0;
 }
 
 .container {
-    height: 60vh;
-    width: 50vw;
-    margin: 20vh auto;
-    justify-content: center;
+    margin: auto;
 }
 
 .main {
-    padding-top: 7em;
     text-align: center;
+    margin-top: -10vh;
 }
 
 h1 {
@@ -94,10 +90,8 @@ h1 {
 }
 
 h1 span {
+    padding: 0 1em 0.5em 1em;
     margin-bottom: 0.5em;
-    padding-left: 1em;
-    padding-right: 1em;
-    padding-bottom: 0.5em;
     border-bottom: 0.1em solid rgb(150, 150, 150);
 }
 
@@ -108,13 +102,12 @@ h1 span {
 }
 
 .mainlist li {
-    padding-left: 1em;
-    padding-right: 1em;
+    padding: 0 1em 0em;
 }
 
 a:link, a:visited {
-    text-decoration: none;
     color: black;
+    text-decoration: none;
 }
 
 a:hover {
