@@ -99,6 +99,7 @@ h1 span {
     display: flex;
     list-style: none;
     justify-content: center;
+    padding: 0;
 }
 
 .mainlist li {
