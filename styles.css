@@ -72,44 +72,45 @@ textarea:not([rows]) {
 }
 
 body {
-    display: flex;
-    margin: 0;
+  display: flex;
+  margin: 0;
 }
 
-.container {
-    margin: auto;
+div.container {
+  margin: auto;
 }
 
-.main {
-    text-align: center;
-    margin-top: -10vh;
+div.main {
+  display: flex;
+  text-align: center;
+  margin: 1em;
 }
 
 h1 {
-    display: inline-flex;
+  display: inline-block;
+  border-bottom: 0.1em solid rgb(150, 150, 150);
+  margin-bottom: 0.5em;
 }
 
 h1 span {
-    padding: 0 1em 0.5em 1em;
-    margin-bottom: 0.5em;
-    border-bottom: 0.1em solid rgb(150, 150, 150);
+  padding: 0 1em 0.5em 1em;
 }
 
-.mainlist {
-    display: flex;
-    list-style: none;
-    justify-content: center;
+ul.mainlist {
+  display: flex;
+  list-style: none;
+  padding: 0;
 }
 
-.mainlist li {
-    padding: 0 1em 0em;
+ul li {
+  flex: 1;
 }
 
 a:link, a:visited {
-    color: black;
-    text-decoration: none;
+  color: black;
+  text-decoration: none;
 }
 
 a:hover {
-    color: rgb(120, 120, 120);
+  color: rgb(120, 120, 120);
 }
